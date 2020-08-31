@@ -7,7 +7,7 @@
       max-width: 1200px;
       min-width: 650px;
       margin: 0 auto;
-      padding: 50px;
+      padding: 20px;
   }
 
   .chart {
@@ -81,6 +81,34 @@
 		position: relative;
 		cursor: pointer;
 		border-radius: 15px;
+  }
+  .birth {
+    border-radius: 15px;
+    background-color:#0029F7;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    width: 100px;
+  }
+  .death {
+    border-radius: 15px;
+    background-color:#000;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    width: 100px;
+  }
+  p {
+    margin: 2px !important;
+    padding: 2px !important;
+  }
+  .marriage {
+    border-radius: 15px;
+    background-color:#8762cd;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    width: 100px;
   }
   ul .chart-li-mb {
     grid-column: 1/12;
