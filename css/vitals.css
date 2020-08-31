@@ -70,47 +70,51 @@
 		border-bottom: 1px solid  #000;
   }
   li {
-    font-weight: 450;
+    font-weight: 600;
 		text-align: left;
-		font-size: 15px;
-		min-height: 15px;
+		font-size: 12px;
+		min-height: 12px;
 		background-color: #fff;
-		padding: 5px 15px;
+		padding: 0px 15px;
 		color: #fff;
 		overflow: hidden;
 		position: relative;
 		cursor: pointer;
 		border-radius: 15px;
   }
-  ul .chart-li-one {
+  ul .chart-li-mb {
     grid-column: 1/12;
     background-color:#0029F7;
   }
-  ul .chart-li-two-a {
+  ul .chart-li-md {
     grid-column: 2/11;
     background-color: #000;
   }
-  ul .chart-li-two-b {
+  ul .chart-li-mm {
     grid-column: 2/7;
     background-color:#8762cd;
   }
-  ul .chart-li-three {
+  ul .chart-li-qb {
     grid-column: 3/5;
-    background-color:#57A0D3;
+    background-color:#0029F7;
   }
-  ul .chart-li-four {
+  ul .chart-li-qd {
     grid-column: 3/9;
-    background-color:#0E4D92;
+    background-color:#000;
   }
-  ul .chart-li-five {
+  ul .chart-li-qm {
     grid-column: 7/10;
-    background-color:#4F97A3;
+    background-color:#8762cd;
   }
-  ul .chart-li-six {
+  ul .chart-li-kb {
     grid-column: 10/12;
-    background-color:#73C2FB;
+    background-color:#0029F7;
   }
-  ul .chart-li-seven {
+  ul .chart-li-kd {
     grid-column: 12/12;
-    background-color:#0080FF;
+    background-color:#000;
+  }
+  ul .chart-li-km {
+    grid-column: 7/10;
+    background-color:#8762cd;
   }
