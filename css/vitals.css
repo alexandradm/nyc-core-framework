@@ -130,6 +130,7 @@
   ul .chart-li-md-end {
     grid-column: 14/14;
     background-color: #000;
+    text-align: center;
   }
   ul .chart-li-mm-1 {
     grid-column: 2/2;
@@ -142,6 +143,7 @@
   ul .chart-li-mm-end {
     grid-column: 14/14;
     background-color:#8762cd;
+    text-align: center;
   }
   ul .chart-li-qb {
     grid-column: 3/5;
