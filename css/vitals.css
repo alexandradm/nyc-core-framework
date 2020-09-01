@@ -75,7 +75,7 @@
 		font-size: 12px;
 		min-height: 12px;
 		background-color: #fff;
-		padding: 0px 15px;
+		padding: 0px 8px;
 		color: #fff;
 		overflow: hidden;
 		position: relative;
@@ -164,7 +164,7 @@
     background-color:#8762cd;
   }
   ul .chart-li-kb {
-    grid-column: 6/11;
+    grid-column: 6/14;
     background-color:#0029F7;
   }
   ul .chart-li-kb-end {
@@ -190,4 +190,34 @@
   ul .chart-li-km {
     grid-column: 7/10;
     background-color:#8762cd;
+  }
+  ul .chart-li-rb {
+    grid-column: 12/14;
+    background-color:#0029F7;
+    margin-left: 30px;
+  }
+  ul .chart-li-rb-end {
+    grid-column: 14/14;
+    background-color:#0029F7;
+    text-align: center;
+  }
+  ul .chart-li-rd {
+    grid-column: 12/14;
+    background-color:#000;
+    margin-left: 30px;
+  }
+  ul .chart-li-rd-end {
+    grid-column: 14/14;
+    background-color:#000;
+    text-align: center;
+  }
+  ul .chart-li-rm {
+    grid-column: 12/14;
+    background-color:#8762cd;
+    margin-left: 30px;
+  }
+  ul .chart-li-rm-end {
+    grid-column: 14/14;
+    background-color:#8762cd;
+    text-align: center;
   }
