@@ -189,6 +189,13 @@
     background-color:#8762cd;
     text-align: center;
   }
+  ul .chart-li-kb-before {
+    grid-column: 2/4;
+    background-color:#0029F7;
+    opacity: .7;
+    margin-left: 8px;
+    width: 80%;
+  }
   ul .chart-li-kb {
     grid-column: 6/14;
     background-color:#0029F7;
@@ -216,6 +223,13 @@
   ul .chart-li-km {
     grid-column: 7/10;
     background-color:#8762cd;
+  }
+  ul .chart-li-rb-before {
+    grid-column: 9/12;
+    background-color:#0029F7;
+    opacity: .7;
+    width: 110%;
+    margin-left: 5px;
   }
   ul .chart-li-rb {
     grid-column: 12/14;
