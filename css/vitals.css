@@ -28,14 +28,14 @@
     color:  #fff;
     background-color:  #181A7B !important;
     border-bottom: 2px solid #000;
-    grid-template-columns: 50px repeat(12, 1fr);
+    grid-template-columns: 50px repeat(14, 1fr);
   }
   .chart-lines {
     position: absolute;
     height: 100%;
     width: 100%;
     background-color: transparent;
-    grid-template-columns: 50px repeat(12, 1fr);
+    grid-template-columns: 50px repeat(14, 1fr);
   }
   .chart-period > span {
     text-align: center;
@@ -65,7 +65,7 @@
 		display: grid;
 		padding: 15px 0;
 		margin: 0;
-		grid-template-columns: repeat(12, 1fr);
+		grid-template-columns: repeat(14, 1fr);
 		grid-gap: 10px 0;
 		border-bottom: 1px solid  #000;
   }
@@ -110,16 +110,37 @@
     font-weight: 600;
     width: 100px;
   }
-  ul .chart-li-mb {
-    grid-column: 1/12;
+  ul .chart-li-mb-1 {
+    grid-column: 2/2;
     background-color:#0029F7;
   }
+  ul .chart-li-mb-2 {
+    grid-column: 3/14;
+    background-color:#0029F7;
+  }
+  ul .chart-li-mb-end {
+    grid-column: 14/14;
+    background-color:#0029F7;
+    text-align: center;
+  }
   ul .chart-li-md {
-    grid-column: 2/11;
+    grid-column: 1/14;
     background-color: #000;
   }
-  ul .chart-li-mm {
-    grid-column: 2/7;
+  ul .chart-li-md-end {
+    grid-column: 14/14;
+    background-color: #000;
+  }
+  ul .chart-li-mm-1 {
+    grid-column: 2/2;
+    background-color:#8762cd;
+  }
+  ul .chart-li-mm-2 {
+    grid-column: 3/14;
+    background-color:#8762cd;
+  }
+  ul .chart-li-mm-end {
+    grid-column: 14/14;
     background-color:#8762cd;
   }
   ul .chart-li-qb {
@@ -135,7 +156,16 @@
     background-color:#8762cd;
   }
   ul .chart-li-kb {
-    grid-column: 10/12;
+    grid-column: 5/13;
+    background-color:#0029F7;
+  }
+  ul .chart-li-kb-end {
+    grid-column: 13/13;
+    background-color:#0029F7;
+    text-align: center;
+  }
+  ul .chart-li-kb-2 {
+    grid-column: 3/7;
     background-color:#0029F7;
   }
   ul .chart-li-kd {
