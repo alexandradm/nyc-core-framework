@@ -113,10 +113,13 @@
   ul .chart-li-mb-1 {
     grid-column: 2/2;
     background-color:#0029F7;
+    max-width: 90%;
+    margin-left: 3px;
   }
   ul .chart-li-mb-2 {
     grid-column: 3/14;
     background-color:#0029F7;
+    margin-left: 25px;
   }
   ul .chart-li-mb-end {
     grid-column: 14/14;
@@ -135,10 +138,13 @@
   ul .chart-li-mm-1 {
     grid-column: 2/2;
     background-color:#8762cd;
+    max-width: 90%;
+    margin-left: 3px;
   }
   ul .chart-li-mm-2 {
     grid-column: 3/14;
     background-color:#8762cd;
+    margin-left: 25px;
   }
   ul .chart-li-mm-end {
     grid-column: 14/14;
@@ -158,21 +164,28 @@
     background-color:#8762cd;
   }
   ul .chart-li-kb {
-    grid-column: 5/13;
+    grid-column: 6/11;
     background-color:#0029F7;
   }
   ul .chart-li-kb-end {
-    grid-column: 13/13;
+    grid-column: 14/14;
     background-color:#0029F7;
     text-align: center;
   }
-  ul .chart-li-kb-2 {
-    grid-column: 3/7;
-    background-color:#0029F7;
-  }
-  ul .chart-li-kd {
-    grid-column: 12/12;
+  ul .chart-li-kd-1 {
+    grid-column: 2/4;
+    margin-left: 10px;
+    max-width: 70%;
     background-color:#000;
+  }
+  ul .chart-li-kd-2 {
+    grid-column: 4/14;
+    background-color:#000;
+  }
+  ul .chart-li-kd-end {
+    grid-column: 14/14;
+    background-color:#000;
+    text-align: center;
   }
   ul .chart-li-km {
     grid-column: 7/10;
