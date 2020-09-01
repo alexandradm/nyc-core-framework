@@ -157,10 +157,11 @@
     margin-left: 30px;
   }
   ul .chart-li-qb-before {
-    grid-column: 9/12;
+    grid-column: 2/12;
     background-color:#0029F7;
     opacity: .7;
     width: 110%;
+    margin-left: 5px;
   }
 
   ul .chart-li-qb-end {
