@@ -25,3 +25,28 @@ ol.breadcrumb {
 ol.breadcrumb li {
   display: inline;
 }
+.names span {
+  margin-right: 5px;
+  padding-left: 2px;
+}
+#azindex {
+float: left;
+margin: 5px 0 5px 5px;
+padding: 0px 5px 25px 5px;
+}
+
+#index li {
+float: left;
+height: 2em;
+list-style-type: none;
+padding: 0;
+width: 2em;
+}
+
+#index a:link, #index a:visited {
+display: block;
+height: 2em;
+padding: 0.75em 0 0 0;
+text-align: center;
+width: 3em;
+}
