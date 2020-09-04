@@ -50,3 +50,8 @@ padding: 0.75em 0 0 0;
 text-align: center;
 width: 3em;
 }
+.input-group #startyear, #endyear {
+  width: 120px !important;
+  flex: none;
+  display: inline-block;
+}
