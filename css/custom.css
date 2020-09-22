@@ -55,3 +55,9 @@ width: 3em;
   flex: none;
   display: inline-block;
 }
+ul {
+  margin-left: -15px;
+}
+ul a {
+  color: #181A7B;
+}
