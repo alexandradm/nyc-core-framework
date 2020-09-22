@@ -61,3 +61,7 @@ ul {
 ul a {
   color: #181A7B;
 }
+
+.subgroups-list {
+  list-style: none;
+}
