@@ -15,7 +15,7 @@ h1 a:hover {
   background-color: #684499 !important;
   color: white !important;
 }
-table a {
+ a {
   color: #181A7B;
 }
 
@@ -64,4 +64,14 @@ ul a {
 
 .subgroups-list {
   list-style: none;
+}
+
+.description {
+  font-size: 12pt;
+}
+
+.sidebar li {
+  list-style: none;
+  font-size: 10pt;
+  padding: 3px;
 }
