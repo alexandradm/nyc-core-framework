@@ -9,6 +9,21 @@ h1 a:hover {
   text-decoration: none;
   color: #000;
 }
+.wrap-header img {
+  max-width: 270px;
+}
+
+.container {
+  padding: 0;
+}
+.maintext {
+  line-height: 1;
+}
+
+.accordion-group li {
+  list-style: none;
+}
+
 
 .nav-pills .nav-link.active, .nav-pills .nav-link.active:hover {
   text-decoration: none !important;

@@ -85,7 +85,7 @@ In this file:
   --info: #A513B6;
   --warning: #ffc107;
   --danger: #ea172b;
-  --light: #e6ecf7;
+  --light: #eee;
   --dark: #0A1438;
   --white: #fff;
   --black: #000;
@@ -5103,7 +5103,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #e6ecf7 !important;
+  background-color: #eee !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,

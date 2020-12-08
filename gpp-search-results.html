@@ -11,8 +11,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
     <!-- NYC Theme CSS -->
-    <link rel="stylesheet" href="./css/theme.css">
-    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/gpp-theme.css">
+    <link rel="stylesheet" href="./css/gpp-custom.css">
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
 </head>
 <body>
@@ -64,7 +64,7 @@
         <!-- #nyc-top-header -->
         <div class="wrap-header">
             <div class="container-fluid wide">
-                <div class="row  pt-2 pb-2 align-items-center">
+                <div class="row  pt-1 pb-1 align-items-center">
                     <div class="col-lg">
                         <div class="d-flex justify-content-center justify-content-lg-start">
                             <a class="align-self-center" href="https://nyc.gov/doris" title="Home">
@@ -76,7 +76,7 @@
                     <!-- .col -->
                     <div class="col-lg">
                         <div class="d-flex justify-content-center text-center">
-                              <h1><a href="#">Government Publications<br><small>THELMA | The Library and Municipal Archives</small><a/></h1>
+                              <h1><a href="#">Government Publications<br><a/></h1>
                         </div>
                         <!-- .d-flex -->
                     </div>
@@ -144,7 +144,7 @@
                 </div>
             </form>
         </div>
-        <div class="container-fluid collapse d-lg-block px-0 border-lg-top" id="nav-primary">
+        <div class="container-fluid collapse d-lg-block px-0 border-lg-top  border-bottom" id="nav-primary">
             <h2 class="sr-only">
                 Primary Navigation
             </h2>
@@ -178,101 +178,174 @@
     </header>
     <!-- #global-header -->
     <main id="skip-header-target" role="main">
-       <section class="featured-panel device-md">
-            <div class="card bg-primary">
-                <img class="card-img opacity-20 full-opacity-on-device" src="images/31chambers.jpg" alt="background image">
-                <div class="card-img-overlay d-flex">
-                    <div class="container align-self-center my-3">
-                        <div class="text-white text-center">
-                            <h1 class="card-title display-4 font-weight-bold">Welcome to the Government Publications Portal</h1>
-                            <p style="font-weight:600">The Government Publications Portal holds New York City’s recent agency publications.
-                              The portal is maintained by the Municipal Library at the New York City Department of Records and Information Services (DORIS)
-                              as part of the government’s ongoing mission to make government information accessible. The New York City Charter, Section 1133,
-                              requires agencies to submit digital copies of all publications to the Library. A list of all required reports is published on this website for public perusal.
-                              Should the agencies concerned not submit the report within the required
-                              time limit, DORIS will issue a request for the report to the agency. Such requests will be published on the government publications
-                              website in place of the report until the report is published.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- .featured-panel -->
-        <section class="py-5 bg-light">
+        <section class="py-3">
             <div class="container">
-                <div class="row matrix-gutter">
-                  <div class="container-fluid">
-                      <form class="narrow py-2" aria-label="Search" role="search">
-                          <div class="input-group">
-                              <label class="sr-only" for="global-search-bar">Search</label>
-                              <input class="form-control form-control-lg" id="global-search-bar" placeholder="Search">
-                              <div class="input-group-btn">
-                                  <button class="btn btn-primary btn-lg" type="button" title="Search">
-                                      <span class="sr-only">Search</span>
-                                      <span class="fas fa-arrow-right" role="img"></span>
-                                  </button>
-                              </div>
-                          </div>
-                      </form>
-                      <p class="text-center">To find publications, search by keyword, such as agency name, subject, title, report type, or date.
-                        Once you have search results, you can sort them further using filters, including by relevance, by date,
-                        or with just one letter of the alphabet.</p>
-                  </div>
-                </div>
-                <!-- .row -->
-            </div>
-            <!-- .container -->
-        </section>
-        <section class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="d-flex col-lg mb-3 mb-lg-0 justify-content-start">
-                        <h2>26,009 Available Publications</h2>
-                    </div>
-                    <div class="d-flex col-lg justify-content-end">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Results Per Page:
-                        </button>
-                      <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">50</a>
-                          <a class="dropdown-item" href="#">100</a>
-                          <a class="dropdown-item" href="#">500</a>
-                      </div>
-                    </div>
-                    <!-- .col -->
-                </div>
-                <!-- .row -->
-                <div class="row pt-5">
-                <table class="table table-striped">
-                  <thead>
-                    <tr class="bg-primary">
-                      <th scope="col" style="color: #fff;">Publication Title &nbsp; <span class="fa fa-lg fa-caret-up"></span></th>
-                      <th scope="col" style="color: #fff;">Agency &nbsp; <span class="fa fa-lg fa-caret-up"></span></th>
-                      <th scope="col" style="color: #fff;">Date Published &nbsp; <span class="fa fa-lg fa-caret-up"></span></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
-                    <tr>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
-                    </tr>
-                  </tbody>
+              <div class="row pb-2 justify-content-between">
+                <div class="col-4"><h2>1-10 of # Results &nbsp;<span class="small"><a href="/"> Next 10 > </a></span></h2></div>
+              </div>
+              <div class="row pb-1 justify-content-between">
+                <div class="col-4">Search keyword(s): <b>Art</b></div>
+                <div class="col-4">Sort by box</div>
+              </div>
+              <div class="row matrix-gutter">
+                <div class="col-lg mr-3">
+                  <hr>
+                <table class="table">
+                <tbody>
+                <tr>
+                  <td  class="p-2"><a href="/nyc-core-framework/aspace-collection.html"><h3>Collection Title</a> <small>Collection REC0035</small></h3>
+                  <p>Collection description that can go on for a few sentences. They are generally pretty brief. Sometimes,
+                  however, they go on for a few sentences. Help people know what's going on.</p>
+                </td>
+                  <td>1961-1975</td>
+                </tr>
+                <tr>
+                  <td  class="p-2"><a href="/"><h3>Series Title can be long too</a> <small>Series X, in <a href="/">Collection REC0054</a></small></h3>
+                  <p>Series description that can go on for a few sentences. They are generally pretty brief.</p>
+                </td>
+                  <td>1964</td>
+                </tr>
+                <tr>
+                  <td  class="p-2"><a href="/"><h3>Accession Title can be long too</a> <small>Accession 2018-012</small></h3>
+                  <p>Accession description that can go on for a few sentences. They are generally pretty brief.</p>
+                </td>
+                  <td>1964</td>
+                </tr>
+                </tbody>
                 </table>
               </div>
+                <div class-"col-lg ml-2">
+                  <h2 class="h4">Filter by:</h2>
+                  <div class="bg-light" style="width:220px;">
+                    <div class="accordion-group" role="tablist" id="accordion-01">
+                      <div class="card">
+                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-01" data-toggle="collapse" href="#panel-acc-button-01"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          <span class="h5" role="heading" aria-level="3">Subject</span>
+                        </a>
+                        <div class="collapse" id="panel-acc-button-01" role="tabpanel" aria-labelledby="acc-button-01" data-parent="#accordion-01">
+                          <div class="card-body">
+                            <ul class="small">
+                              <li><a href="/">Subject A <b>(#)</b></a></li>
+                              <li><a href="/">Subject B <b>(#)</b></a></li>
+                              <li><a href="/">Subject C <b>(#)</b></a></li>
+                            </ul>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                    <div class="accordion-group" role="tablist" id="accordion-02">
+                      <div class="card">
+                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-02" data-toggle="collapse" href="#panel-acc-button-02"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-02">
+                          <span class="h5" role="heading" aria-level="3">Agency</span>
+                        </a>
+                        <div class="collapse" id="panel-acc-button-02" role="tabpanel" aria-labelledby="acc-button-02" data-parent="#accordion-01">
+                          <div class="card-body">
+                            <ul class="small">
+                              <li><a href="/">Agency A <b>(#)</b></a></li>
+                              <li><a href="/">Agency B <b>(#)</b></a></li>
+                              <li><a href="/">Agency C <b>(#)</b></a></li>
+                            </ul>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                    <div class="accordion-group" role="tablist" id="accordion-03">
+                      <div class="card">
+                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-03" data-toggle="collapse" href="#panel-acc-button-03"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-03">
+                          <span class="h5" role="heading" aria-level="3">Report Type</span>
+                        </a>
+                        <div class="collapse" id="panel-acc-button-03" role="tabpanel" aria-labelledby="acc-button-03" data-parent="#accordion-01">
+                          <div class="card-body">
+                            <ul class="small">
+                              <li><a href="/">Example<b>(#)</b></a></li>
+                              <li><a href="/">Example <b>(#)</b></a></li>
+                              <li><a href="/">Example <b>(#)</b></a></li>
+                            </ul>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                    <div class="accordion-group" role="tablist" id="accordion-04">
+                      <div class="card">
+                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-04" data-toggle="collapse" href="#panel-acc-button-04"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-04">
+                          <span class="h5" role="heading" aria-level="3">Year</span>
+                        </a>
+                        <div class="collapse" id="panel-acc-button-04" role="tabpanel" aria-labelledby="acc-button-04" data-parent="#accordion-01">
+                          <div class="card-body">
+                            <ul class="small">
+                              <li><a href="/">2020 <b>(#)</b></a></li>
+                              <li><a href="/">2019 <b>(#)</b></a></li>
+                              <li><a href="/">2018 <b>(#)</b></a></li>
+                              <li><a href="/">2017 <b>(#)</b></a></li>
+                            </ul>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                    <div class="accordion-group" role="tablist" id="accordion-05">
+                      <div class="card">
+                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-05" data-toggle="collapse" href="#panel-acc-button-05"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-05">
+                          <span class="h5" role="heading" aria-level="3">Borough</span>
+                        </a>
+                        <div class="collapse" id="panel-acc-button-05" role="tabpanel" aria-labelledby="acc-button-05" data-parent="#accordion-01">
+                          <div class="card-body">
+                            <ul class="small">
+                              <li><a href="/">Brooklyn <b>(#)</b></a></li>
+                              <li><a href="/">Bronx <b>(#)</b></a></li>
+                              <li><a href="/">Manhattan <b>(#)</b></a></li>
+                              <li><a href="/">Queens <b>(#)</b></a></li>
+                              <li><a href="/">Staten Island <b>(#)</b></a></li>
+                            </ul>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                </div>
+              </div>
+              </div>
                 <!-- .row -->
-            </div>
+          </div>
             <!-- .container -->
+        </section>
+        <section class="featured-panel device-lg">
+            <div class="card bg-dark">
+                <img class="card-img opacity-40 full-opacity-on-device" src="images/ebbets_field.jpg" alt="Card image">
+                <div class="card-img-overlay d-flex px-0">
+                    <div class="container align-self-center">
+                        <div class="row text-center text-white">
+                            <div class="col-lg-4 py-3">
+                                <h2 class="h4">Digital Collections</h2>
+                                <p>
+                                    View more than 1 million digitized items
+                                </p>
+                                <a class="btn btn-info" href="http://nycma.lunaimaging.com/">Digital Collections</a>
+                            </div>
+                            <!-- .col -->
+                            <div class="col-lg-4 py-3">
+                                <h2 class="h4">For the Record Blog</h2>
+                                <p>
+                                    Read highlights from the archives
+                                </p>
+                                <a class="btn btn-info" href="https://www.archives.nyc/blog">For the Record</a>
+                            </div>
+                            <!-- .col -->
+
+                            <div class="col-lg-4 py-3">
+                                <h2 class="h4">Support the Archives</h2>
+                                <p>
+                                    Donate, adopt an item, or purchase prints
+                                </p>
+                                <a class="btn btn-info" href="https://www1.nyc.gov/site/records/about/donate.page">Donate Now</a>
+                            </div>
+                            <!-- .col -->
+                        </div>
+                        <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .card -->
         </section>
     </main>
     <footer class="bg-black" id="global-footer" role="contentinfo">
@@ -289,7 +362,7 @@
                                 <ul class="extensible-list">
                                   <li>
                                       <a class="text-reset" href="#">
-                                          <strong>NYC Municipal Library Government Publications</strong>
+                                          <strong>NYC Municipal Archives Collection Guides</strong>
                                       </a>
                                   </li>
                                     <li>
@@ -330,10 +403,17 @@
                             <div class="col-lg mb-3 mb-lg-0">
                                 <ul class="extensible-list">
                                   <li>
-                                          <strong>&#169; 2020 Samvera</strong>
+                                          <strong>&#169; 2020 ArchivesSpace</strong>
+                                  </li>
+                                  <li>
+                                      <a class="text-reset" href="http://archivesspace.org/">
+                                          <strong>ArchivesSpace v. 2.5.1</strong>
+                                      </a>
                                   </li>
                                     <li>
-                                            <strong>Licensed under the Apache License, Version 2.0</strong>
+                                        <a class="text-reset" href="http://opensource.org/licenses/ecl2.php">
+                                            <strong>Educational Community License, version 2.0</strong>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
