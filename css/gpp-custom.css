@@ -32,7 +32,10 @@ h1 a:hover {
 }
  a {
   color: #036;
-  font-weight: 500;
+}
+
+.recent a {
+    font-weight: 500;
 }
 
 ol.breadcrumb {
