@@ -203,7 +203,7 @@
 
             <div class="section bg-light mx-2 mb-2">
               <div class="row py-1 px-3 pt-2">
-                  <h2 class="h5">Filter by:</h2>
+                  <h2 class="h5 pt-1">Filter by:</h2>
                   <div class="col-md">
                     <div class="accordion-group" role="tablist" id="accordion-01">
                       <div class="card mb-2">
@@ -211,58 +211,91 @@
                           Subject
                         </button>
                         <div class="collapse" id="panel-acc-button-01" role="tabpanel" aria-labelledby="acc-button-01" data-parent="#accordion-01">
-                          <div class="card-body">
+                          <div class="card-body subject">
                             <ul class="small">
                               <li><a href="/">Subject A <b>(#)</b></a></li>
                               <li><a href="/">Subject B <b>(#)</b></a></li>
                               <li><a href="/">Subject C <b>(#)</b></a></li>
+                              <li><a href="/">Subject D <b>(#)</b></a></li>
+                              <li><a href="/">Subject E <b>(#)</b></a></li>
                             </ul>
+                            <button class="btn btn-sm btn-primary"> More + </button>
                           </div>
                         </div>  <!-- .collapse -->
                       </div>  <!-- .card (end of first accordion, repeat as needed) -->
                     </div>
                   </div>
                   <div class="col-md">
-                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Agency
-                    </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">10</a>
-                      <a class="dropdown-item" href="#">50</a>
-                      <a class="dropdown-item" href="#">100</a>
-                      <a class="dropdown-item" href="#">500</a>
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Language
-                    </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">10</a>
-                      <a class="dropdown-item" href="#">50</a>
-                      <a class="dropdown-item" href="#">100</a>
-                      <a class="dropdown-item" href="#">500</a>
-                    </div>
-                  </div>
-                  <div class="col-md">
-                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Report Type
-                    </button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">10</a>
-                      <a class="dropdown-item" href="#">50</a>
-                      <a class="dropdown-item" href="#">100</a>
-                      <a class="dropdown-item" href="#">500</a>
+                    <div class="accordion-group" role="tablist" id="accordion-01">
+                      <div class="card mb-2">
+                        <button class="py-1 btn btn-outline border-primary collapse collapsed dropdown-toggle" id="acc-button-02" data-toggle="collapse" href="#panel-acc-button-02"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          Agency
+                        </button>
+                        <div class="collapse" id="panel-acc-button-02" role="tabpanel" aria-labelledby="acc-button-01" data-parent="#accordion-01">
+                          <div class="card-body agency">
+                            <ul class="small">
+                              <li><a href="/">Citywide Administrative Services, Department of (DCAS) <b>(22)</b></a></li>
+                              <li><a href="/">City Planning, Department of (DCP) <b>(47)</b></a></li>
+                              <li><a href="/">Education, Department of (DOE)<b>(123)</b></a></li>
+                              <li><a href="/">Environmental Protection, Department of (DEP) <b>(42)</b></a></li>
+                              <li><a href="/">Mayor's Office (OM) <b>(1,197)</b></a></li>
+                            </ul>
+                            <button class="btn btn-sm btn-primary"> More + </button>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
                     </div>
                   </div>
                   <div class="col-md">
                     <div class="accordion-group" role="tablist" id="accordion-01">
                       <div class="card mb-2">
-                        <a class="px-1 py-1 bg-white border-bottom collapse collapsed" id="acc-button-01" data-toggle="collapse" href="#panel-acc-button-01"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
-                          <span class="h6" role="heading" aria-level="3">Borough</span>
-                        </a>
-                        <div class="collapse" id="panel-acc-button-01" role="tabpanel" aria-labelledby="acc-button-01" data-parent="#accordion-01">
-                          <div class="card-body">
+                        <button class="py-1 btn btn-outline border-primary collapse collapsed dropdown-toggle" id="acc-button-03" data-toggle="collapse" href="#panel-acc-button-03"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          Language
+                        </button>
+                        <div class="collapse" id="panel-acc-button-03" role="tabpanel" aria-labelledby="acc-button-03" data-parent="#accordion-01">
+                          <div class="card-body language">
+                            <ul class="small">
+                              <li><a href="/">English <b>(27,122)</b></a></li>
+                              <li><a href="/">Spanish <b>(2,247)</b></a></li>
+                              <li><a href="/">Russian <b>(947)</b></a></li>
+                              <li><a href="/">Korean <b>(53)</b></a></li>
+                              <li><a href="/">Chinese <b>(42)</b></a></li>
+                            </ul>
+                            <button class="btn btn-sm btn-primary"> More + </button>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="accordion-group" role="tablist" id="accordion-01">
+                      <div class="card mb-2">
+                        <button class="py-1 btn btn-outline border-primary collapse collapsed dropdown-toggle" id="acc-button-04" data-toggle="collapse" href="#panel-acc-button-04"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          Report Type
+                        </button>
+                        <div class="collapse" id="panel-acc-button-04" role="tabpanel" aria-labelledby="acc-button-04" data-parent="#accordion-01">
+                          <div class="card-body type">
+                            <ul class="small">
+                              <li><a href="/">Example 1 <b>(27,122)</b></a></li>
+                              <li><a href="/">Example 2 <b>(2,247)</b></a></li>
+                              <li><a href="/">Example 3 <b>(947)</b></a></li>
+                              <li><a href="/">Example 4 <b>(53)</b></a></li>
+                              <li><a href="/">Example 5 <b>(42)</b></a></li>
+                            </ul>
+                            <button class="btn btn-sm btn-primary"> More + </button>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="accordion-group" role="tablist" id="accordion-01">
+                      <div class="card mb-2">
+                        <button class="py-1 btn btn-outline border-primary collapse collapsed dropdown-toggle" id="acc-button-05" data-toggle="collapse" href="#panel-acc-button-05"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          Borough
+                        </button>
+                        <div class="collapse" id="panel-acc-button-05" role="tabpanel" aria-labelledby="acc-button-05" data-parent="#accordion-01">
+                          <div class="card-body borough">
                             <ul class="small">
                               <li><a href="/">Brooklyn <b>(#)</b></a></li>
                               <li><a href="/">Bronx <b>(#)</b></a></li>
@@ -270,48 +303,85 @@
                               <li><a href="/">Queens <b>(#)</b></a></li>
                               <li><a href="/">Staten Island <b>(#)</b></a></li>
                             </ul>
+                            <button class="btn btn-sm btn-primary"> More + </button>
                           </div>
                         </div>  <!-- .collapse -->
                       </div>  <!-- .card (end of first accordion, repeat as needed) -->
                     </div>
                   </div>
                   <div class="col-md">
-                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Year
-                    </button>
-                    <div class="dropdown-menu year">
-                      <div class="row">
-                        <div class="col-md-4">
-                          <ul class="small">
-                            <li><a href="/">2021 <b>(#)</b></a></li>
-                            <li><a href="/">2020 <b>(#)</b></a></li>
-                            <li><a href="/">2019 <b>(#)</b></a></li>
-                            <li><a href="/">2018 <b>(#)</b></a></li>
-                            <li><a href="/">2017 <b>(#)</b></a></li>
-                          </ul>
-                        </div>
-                        <div class="col-md-4">
-                          <ul class="small">
-                            <li><a href="/">2016 <b>(#)</b></a></li>
-                            <li><a href="/">2015 <b>(#)</b></a></li>
-                            <li><a href="/">2014 <b>(#)</b></a></li>
-                            <li><a href="/">2013 <b>(#)</b></a></li>
-                            <li><a href="/">2012 <b>(#)</b></a></li>
-                          </ul>
-                        </div>
-                        <div class="col-md-4">
-                          <ul class="small">
-                            <li><a href="/">2011 <b>(#)</b></a></li>
-                            <li><a href="/">2010 <b>(#)</b></a></li>
-                            <li><a href="/">2009 <b>(#)</b></a></li>
-                            <li><a href="/">2008 <b>(#)</b></a></li>
-                            <li><a href="/">2007 <b>(#)</b></a></li>
-                          </ul>
-                        </div>
-                      </div>
+                    <div class="accordion-group" role="tablist" id="accordion-01">
+                      <div class="card mb-2">
+                        <button class="py-1 btn btn-outline border-primary collapse collapsed dropdown-toggle" id="acc-button-06" data-toggle="collapse" href="#panel-acc-button-06"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          Year
+                        </button>
+                        <div class="collapse" id="panel-acc-button-06" role="tabpanel" aria-labelledby="acc-button-06" data-parent="#accordion-01">
+                          <div class="card-body year">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <ul class="small">
+                                  <li><a href="/">2021 <b>(#)</b></a></li>
+                                  <li><a href="/">2020 <b>(#)</b></a></li>
+                                  <li><a href="/">2019 <b>(#)</b></a></li>
+                                  <li><a href="/">2018 <b>(#)</b></a></li>
+                                  <li><a href="/">2017 <b>(#)</b></a></li>
+                                  <li><a href="/">2016 <b>(#)</b></a></li>
+                                  <li><a href="/">2015 <b>(#)</b></a></li>
+                                  <li><a href="/">2014 <b>(#)</b></a></li>
+                                  <li><a href="/">2013 <b>(#)</b></a></li>
+                                  <li><a href="/">2012 <b>(#)</b></a></li>
+                                </ul>
+                              </div>
+                              <div class="col-md-3">
+                                <ul class="small">
+                                  <li><a href="/">2011 <b>(#)</b></a></li>
+                                  <li><a href="/">2010 <b>(#)</b></a></li>
+                                  <li><a href="/">2009 <b>(#)</b></a></li>
+                                  <li><a href="/">2008 <b>(#)</b></a></li>
+                                  <li><a href="/">2007 <b>(#)</b></a></li>
+                                  <li><a href="/">2006 <b>(#)</b></a></li>
+                                  <li><a href="/">2005 <b>(#)</b></a></li>
+                                  <li><a href="/">2004 <b>(#)</b></a></li>
+                                  <li><a href="/">2003 <b>(#)</b></a></li>
+                                  <li><a href="/">2002 <b>(#)</b></a></li>
+                                </ul>
+                              </div>
+                              <div class="col-md-3">
+                                <ul class="small">
+                                  <li><a href="/">2011 <b>(#)</b></a></li>
+                                  <li><a href="/">2010 <b>(#)</b></a></li>
+                                  <li><a href="/">2009 <b>(#)</b></a></li>
+                                  <li><a href="/">2008 <b>(#)</b></a></li>
+                                  <li><a href="/">2007 <b>(#)</b></a></li>
+                                  <li><a href="/">2006 <b>(#)</b></a></li>
+                                  <li><a href="/">2005 <b>(#)</b></a></li>
+                                  <li><a href="/">2004 <b>(#)</b></a></li>
+                                  <li><a href="/">2003 <b>(#)</b></a></li>
+                                  <li><a href="/">2002 <b>(#)</b></a></li>
+                                </ul>
+                              </div>
+                              <div class="col-md-3">
+                                <ul class="small">
+                                  <li><a href="/">2011 <b>(#)</b></a></li>
+                                  <li><a href="/">2010 <b>(#)</b></a></li>
+                                  <li><a href="/">2009 <b>(#)</b></a></li>
+                                  <li><a href="/">2008 <b>(#)</b></a></li>
+                                  <li><a href="/">2007 <b>(#)</b></a></li>
+                                  <li><a href="/">2011 <b>(#)</b></a></li>
+                                  <li><a href="/">2010 <b>(#)</b></a></li>
+                                  <li><a href="/">2009 <b>(#)</b></a></li>
+                                  <li><a href="/">2008 <b>(#)</b></a></li>
+                                  <li><a href="/">2007 <b>(#)</b></a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                            <button class="btn btn-sm btn-primary mt-2"> More + </button>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
                     </div>
                   </div>
-                <div class="col-md"></div>
                 </div>
               </div>
               <div class="row pb-1 px-2 mb-2">
