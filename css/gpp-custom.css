@@ -108,3 +108,14 @@ ul a {
   color: #fff;
   border: 1px solid #dee2e6;
 }
+
+.accordion-group {
+  width: 150px;
+}
+
+.dropdown-menu {
+  min-width: 350px;
+}
+.dropdown-menu ul {
+  list-style: none;
+}
