@@ -186,10 +186,10 @@
     <main id="skip-header-target" role="main">
         <section class="py-3">
             <div class="container">
-              <div class="row pb-2 justify-content-between">
+              <div class="row matrix-gutter px-2 pb-2 justify-content-between">
                 <div class="col-6"><h2>1-10 of 20,000 reports</h2></div>
                 <div class="d-flex col-3 justify-content-end">
-                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-sm btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Results Per Page:
                     </button>
                   <div class="dropdown-menu">
@@ -199,24 +199,126 @@
                     <a class="dropdown-item" href="#">500</a>
                   </div>
                 </div>
-                <div class="col-3"></div>
               </div>
-              <div class="row pb-1 justify-content-start mb-2">
-                <div class="col-6"><span class="border border-light px-2 pt-1 pb-1">Search keyword(s): <b>City Charter</b> <a href="/">&nbsp;X&nbsp;</a></span></div>
-    <!--            <div class="d-flex col-3 justify-content-end">
+
+            <div class="section bg-light mx-2 mb-2">
+              <div class="row py-1 px-3 pt-2">
+                  <h2 class="h5">Filter by:</h2>
+                  <div class="col-md">
+                    <div class="accordion-group" role="tablist" id="accordion-01">
+                      <div class="card mb-2">
+                        <button class="px-1 py-1 btn btn-sm btn-outline border-primary collapse collapsed" id="acc-button-01" data-toggle="collapse" href="#panel-acc-button-01"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          <span class="h6" role="heading" aria-level="3">Subject</span>
+                        </button>
+                        <div class="collapse" id="panel-acc-button-01" role="tabpanel" aria-labelledby="acc-button-01" data-parent="#accordion-01">
+                          <div class="card-body">
+                            <ul class="small">
+                              <li><a href="/">Subject A <b>(#)</b></a></li>
+                              <li><a href="/">Subject B <b>(#)</b></a></li>
+                              <li><a href="/">Subject C <b>(#)</b></a></li>
+                            </ul>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                  </div>
+                  <div class="col-md">
                     <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Sort by:
+                      Agency
                     </button>
-                  <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Relevance</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">10</a>
+                      <a class="dropdown-item" href="#">50</a>
                       <a class="dropdown-item" href="#">100</a>
                       <a class="dropdown-item" href="#">500</a>
+                    </div>
                   </div>
+                  <div class="col-md">
+                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Language
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">10</a>
+                      <a class="dropdown-item" href="#">50</a>
+                      <a class="dropdown-item" href="#">100</a>
+                      <a class="dropdown-item" href="#">500</a>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Report Type
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">10</a>
+                      <a class="dropdown-item" href="#">50</a>
+                      <a class="dropdown-item" href="#">100</a>
+                      <a class="dropdown-item" href="#">500</a>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="accordion-group" role="tablist" id="accordion-01">
+                      <div class="card mb-2">
+                        <a class="px-1 py-1 bg-white border-bottom collapse collapsed" id="acc-button-01" data-toggle="collapse" href="#panel-acc-button-01"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
+                          <span class="h6" role="heading" aria-level="3">Borough</span>
+                        </a>
+                        <div class="collapse" id="panel-acc-button-01" role="tabpanel" aria-labelledby="acc-button-01" data-parent="#accordion-01">
+                          <div class="card-body">
+                            <ul class="small">
+                              <li><a href="/">Brooklyn <b>(#)</b></a></li>
+                              <li><a href="/">Bronx <b>(#)</b></a></li>
+                              <li><a href="/">Manhattan <b>(#)</b></a></li>
+                              <li><a href="/">Queens <b>(#)</b></a></li>
+                              <li><a href="/">Staten Island <b>(#)</b></a></li>
+                            </ul>
+                          </div>
+                        </div>  <!-- .collapse -->
+                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Year
+                    </button>
+                    <div class="dropdown-menu year">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <ul class="small">
+                            <li><a href="/">2021 <b>(#)</b></a></li>
+                            <li><a href="/">2020 <b>(#)</b></a></li>
+                            <li><a href="/">2019 <b>(#)</b></a></li>
+                            <li><a href="/">2018 <b>(#)</b></a></li>
+                            <li><a href="/">2017 <b>(#)</b></a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-4">
+                          <ul class="small">
+                            <li><a href="/">2016 <b>(#)</b></a></li>
+                            <li><a href="/">2015 <b>(#)</b></a></li>
+                            <li><a href="/">2014 <b>(#)</b></a></li>
+                            <li><a href="/">2013 <b>(#)</b></a></li>
+                            <li><a href="/">2012 <b>(#)</b></a></li>
+                          </ul>
+                        </div>
+                        <div class="col-md-4">
+                          <ul class="small">
+                            <li><a href="/">2011 <b>(#)</b></a></li>
+                            <li><a href="/">2010 <b>(#)</b></a></li>
+                            <li><a href="/">2009 <b>(#)</b></a></li>
+                            <li><a href="/">2008 <b>(#)</b></a></li>
+                            <li><a href="/">2007 <b>(#)</b></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md"></div>
                 </div>
-                <div class="col-3"></div> -->
               </div>
-              <div class="row matrix-gutter">
-                <div class="col-lg mr-3">
+              <div class="row pb-1 px-2 mb-2">
+                <div class="col-6"><span class="border border-light px-2 pt-1 pb-1 small">Search keyword(s): <b>City Charter</b> <a href="/">&nbsp;X&nbsp;</a></span></div>
+              </div>
+              <div class="row">
+                <div class="col-lg">
                   <hr>
                   <table class="table table-striped recent">
                     <thead>
@@ -284,138 +386,12 @@
                     </tbody>
                   </table>
               </div>
-                <div class-"col-lg ml-2">
-                  <h2 class="h4">Filter by:</h2>
-                  <div class="bg-light" style="width:220px;">
-                    <div class="accordion-group" role="tablist" id="accordion-01">
-                      <div class="card">
-                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-01" data-toggle="collapse" href="#panel-acc-button-01"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-01">
-                          <span class="h5" role="heading" aria-level="3">Subject</span>
-                        </a>
-                        <div class="collapse" id="panel-acc-button-01" role="tabpanel" aria-labelledby="acc-button-01" data-parent="#accordion-01">
-                          <div class="card-body">
-                            <ul class="small">
-                              <li><a href="/">Subject A <b>(#)</b></a></li>
-                              <li><a href="/">Subject B <b>(#)</b></a></li>
-                              <li><a href="/">Subject C <b>(#)</b></a></li>
-                            </ul>
-                          </div>
-                        </div>  <!-- .collapse -->
-                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
-                    </div>
-                    <div class="accordion-group" role="tablist" id="accordion-02">
-                      <div class="card">
-                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-02" data-toggle="collapse" href="#panel-acc-button-02"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-02">
-                          <span class="h5" role="heading" aria-level="3">Agency</span>
-                        </a>
-                        <div class="collapse" id="panel-acc-button-02" role="tabpanel" aria-labelledby="acc-button-02" data-parent="#accordion-01">
-                          <div class="card-body">
-                            <ul class="small">
-                              <li><a href="/">Agency A <b>(#)</b></a></li>
-                              <li><a href="/">Agency B <b>(#)</b></a></li>
-                              <li><a href="/">Agency C <b>(#)</b></a></li>
-                            </ul>
-                          </div>
-                        </div>  <!-- .collapse -->
-                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
-                    </div>
-                    <div class="accordion-group" role="tablist" id="accordion-03">
-                      <div class="card">
-                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-03" data-toggle="collapse" href="#panel-acc-button-03"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-03">
-                          <span class="h5" role="heading" aria-level="3">Report Type</span>
-                        </a>
-                        <div class="collapse" id="panel-acc-button-03" role="tabpanel" aria-labelledby="acc-button-03" data-parent="#accordion-01">
-                          <div class="card-body">
-                            <ul class="small">
-                              <li><a href="/">Example<b>(#)</b></a></li>
-                              <li><a href="/">Example <b>(#)</b></a></li>
-                              <li><a href="/">Example <b>(#)</b></a></li>
-                            </ul>
-                          </div>
-                        </div>  <!-- .collapse -->
-                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
-                    </div>
-                    <div class="accordion-group" role="tablist" id="accordion-04">
-                      <div class="card">
-                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-04" data-toggle="collapse" href="#panel-acc-button-04"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-04">
-                          <span class="h5" role="heading" aria-level="3">Year</span>
-                        </a>
-                        <div class="collapse" id="panel-acc-button-04" role="tabpanel" aria-labelledby="acc-button-04" data-parent="#accordion-01">
-                          <div class="card-body">
-                            <ul class="small">
-                              <li><a href="/">2020 <b>(#)</b></a></li>
-                              <li><a href="/">2019 <b>(#)</b></a></li>
-                              <li><a href="/">2018 <b>(#)</b></a></li>
-                              <li><a href="/">2017 <b>(#)</b></a></li>
-                            </ul>
-                          </div>
-                        </div>  <!-- .collapse -->
-                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
-                    </div>
-                    <div class="accordion-group" role="tablist" id="accordion-05">
-                      <div class="card">
-                        <a class="card-header bg-light border-bottom h4 collapse collapsed" id="acc-button-05" data-toggle="collapse" href="#panel-acc-button-05"  role="tab" aria-expanded="false" aria-controls="panel-acc-button-05">
-                          <span class="h5" role="heading" aria-level="3">Borough</span>
-                        </a>
-                        <div class="collapse" id="panel-acc-button-05" role="tabpanel" aria-labelledby="acc-button-05" data-parent="#accordion-01">
-                          <div class="card-body">
-                            <ul class="small">
-                              <li><a href="/">Brooklyn <b>(#)</b></a></li>
-                              <li><a href="/">Bronx <b>(#)</b></a></li>
-                              <li><a href="/">Manhattan <b>(#)</b></a></li>
-                              <li><a href="/">Queens <b>(#)</b></a></li>
-                              <li><a href="/">Staten Island <b>(#)</b></a></li>
-                            </ul>
-                          </div>
-                        </div>  <!-- .collapse -->
-                      </div>  <!-- .card (end of first accordion, repeat as needed) -->
-                    </div>
-                </div>
+
               </div>
               </div>
                 <!-- .row -->
           </div>
             <!-- .container -->
-        </section>
-        <section class="featured-panel device-lg">
-            <div class="card bg-dark">
-                <img class="card-img opacity-40 full-opacity-on-device" src="images/ebbets_field.jpg" alt="Card image">
-                <div class="card-img-overlay d-flex px-0">
-                    <div class="container align-self-center">
-                        <div class="row text-center text-white">
-                            <div class="col-lg-4 py-3">
-                                <h2 class="h4">Digital Collections</h2>
-                                <p>
-                                    View more than 1 million digitized items
-                                </p>
-                                <a class="btn btn-info" href="http://nycma.lunaimaging.com/">Digital Collections</a>
-                            </div>
-                            <!-- .col -->
-                            <div class="col-lg-4 py-3">
-                                <h2 class="h4">For the Record Blog</h2>
-                                <p>
-                                    Read highlights from the archives
-                                </p>
-                                <a class="btn btn-info" href="https://www.archives.nyc/blog">For the Record</a>
-                            </div>
-                            <!-- .col -->
-
-                            <div class="col-lg-4 py-3">
-                                <h2 class="h4">Support the Archives</h2>
-                                <p>
-                                    Donate, adopt an item, or purchase prints
-                                </p>
-                                <a class="btn btn-info" href="https://www1.nyc.gov/site/records/about/donate.page">Donate Now</a>
-                            </div>
-                            <!-- .col -->
-                        </div>
-                        <!-- .col -->
-                    </div>
-                    <!-- .row -->
-                </div>
-                <!-- .container -->
-            </div>
-            <!-- .card -->
         </section>
     </main>
     <footer class="bg-black" id="global-footer" role="contentinfo">
