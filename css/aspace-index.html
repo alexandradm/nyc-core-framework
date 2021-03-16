@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Corrects IE Compatibility Mode -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>NYCML Government Publications Portal</title>
+    <title>NYCMA Collection Guides</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- NYC Theme CSS -->
-    <link rel="stylesheet" href="./css/gpp-theme.css">
-    <link rel="stylesheet" href="./css/gpp-custom.css">
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
 </head>
 <body>
@@ -65,11 +64,11 @@
         <!-- #nyc-top-header -->
         <div class="wrap-header">
             <div class="container-fluid wide">
-                <div class="row  pt-1 pb-1 align-items-center">
+                <div class="row  pt-2 pb-2 align-items-center">
                     <div class="col-lg">
                         <div class="d-flex justify-content-center justify-content-lg-start">
                             <a class="align-self-center" href="https://nyc.gov/doris" title="Home">
-                              <img src="images/DORIS-logo.png" alt="DORIS" width="50%">
+                              <img src="images/DORIS-logo.png" alt="DORIS" width="35%">
                             </a>
                         </div>
                         <!-- .d-flex -->
@@ -77,7 +76,7 @@
                     <!-- .col -->
                     <div class="col-lg">
                         <div class="d-flex justify-content-center text-center">
-                              <h1 class="h2"><a href="#">Government Publications<br><a/></h1>
+                              <h1><a href="/nyc-core-framework/aspace-index.html">Collection Guides<br><small>The New York City Municipal Archives</small><a/></h1>
                         </div>
                         <!-- .d-flex -->
                     </div>
@@ -95,7 +94,7 @@
                             <div class="col-auto">
                                 <ul class="extensible-list horizontal">
                                     <li>
-                                        <a href="#1" class="btn btn-sm btn-gray">Login</a>
+                                        <a href="#1" class="btn btn-sm btn-gray">Staff Login</a>
                                     </li>
                                     <li>
                                         <button class="no-btn-style" type="button" title="Language"
@@ -135,12 +134,13 @@
             <form class="narrow py-2" aria-label="Search" role="search">
                 <div class="input-group">
                     <label class="sr-only" for="global-search-bar">Search</label>
-                    <input class="form-control form-control-lg" id="global-search-bar" placeholder="Search">
+                    <input class="form-control form-control-lg" id="global-search-bar" placeholder="Search by keyword">
                     <div class="input-group-btn">
                         <button class="btn btn-primary btn-lg" type="button" title="Search">
                             <span class="sr-only">Search</span>
                             <span class="fas fa-arrow-right" role="img"></span>
                         </button>
+                        <span style="padding-left:5px;"><small><a href="/nyc-core-framework/aspace-advanced-search.html"> advanced search</a></small></span>
                     </div>
                 </div>
             </form>
@@ -151,30 +151,37 @@
             </h2>
             <div class="wide">
                 <nav class="nav nav-pills" role="navigation">
-                  <div class="nav-item">
-                      <a class="nav-link" href="/gpp-search-results" id="nav-item-01"
-                          aria-haspopup="true" aria-expanded="false" role="button">
-                          Browse All
-                      </a>
-                  </div>
                     <div class="nav-item">
-                        <a class="nav-link" href="/gpp-required-reports" id="nav-item-01"
+                        <a class="nav-link" href="/nyc-core-framework/aspace-collections-landing.html" id="nav-item-01"
                             aria-haspopup="true" aria-expanded="false" role="button">
-                           Required Reports
+                            Collections
                         </a>
                     </div>
                     <!-- .nav-item -->
                     <div class="nav-item">
-                        <a class="nav-link" href="/gpp-advanced-search" id="nav-item-02"
+                        <a class="nav-link" href="/nyc-core-framework/aspace-subjects.html" id="nav-item-02"
                             aria-haspopup="true" aria-expanded="false" role="button">
-                            Advanced Search
+                            Subjects
                         </a>
                     </div>
                     <!-- .nav-item -->
                     <div class="nav-item">
-                        <a class="nav-link" href="/gpp-contact" id="nav-item-02"
+                        <a class="nav-link" href="/nyc-core-framework/aspace-names.html" id="nav-item-03"
                             aria-haspopup="true" aria-expanded="false" role="button">
-                            Contact
+                            Names
+                        </a>
+                    </div>
+                    <!-- .nav-item -->
+                    <div class="nav-item">
+                        <a class="nav-link" href="/nyc-core-framework/aspace-record-groups.html" id="nav-item-04"
+                            aria-haspopup="true" aria-expanded="false" role="button">
+                            Record Groups
+                        </a>
+                    </div>
+                    <!-- .nav-item -->
+                    <div class="nav-item">
+                        <a class="nav-link" href="https://nycma.lunaimaging.com" role="button">
+                            Digital Collections <span class="fa fa-external-link-square-alt"></span>
                         </a>
                     </div>
                     <!-- .nav-item -->
@@ -186,154 +193,154 @@
     <!-- #global-header -->
     <main id="skip-header-target" role="main">
        <section class="featured-panel device-md">
-            <div class="card bg-dark">
-                <img class="card-img opacity-40 full-opacity-on-device" src="images/bps_01734.jpg" alt="background image">
+            <div class="card bg-black">
+                <img class="card-img opacity-50 full-opacity-on-device" src="images/bps_01734.jpg" alt="background image">
                 <div class="card-img-overlay d-flex">
-                    <div class="container align-self-center my-2">
-                        <div class="text-white text-center">
-                            <h1 class="card-title display-4 font-weight-bold">Government Publications Portal</h1>
-                            <p style="font-weight:600">The Government Publications Portal holds New York City’s recent agency publications.
-                              The portal is maintained by the Municipal Library at the New York City Department of Records and Information Services (DORIS)
-                              as part of the government’s ongoing mission to make government information accessible.</p>
-                              <div class="maintext"><small>The New York City Charter, Section 1133,
-                              requires agencies to submit digital copies of all publications to the Library. A list of all required reports is published on this website.
-                              Should the agencies concerned not submit the report within the required
-                              time limit, DORIS will issue a request for the report to the agency. Such requests will be published on this
-                              website in place of the report until the report is published.</small></div>
+                    <div class="container align-self-center my-3">
+                        <div class="narrow text-white text-center">
+                            <h1 class="card-title display-4 font-weight-bold">Welcome to the Municipal Archives</h1>
+                            <p style="font-weight:600">The Archives preserves and makes available New York City government's historical records.
+                              Explore our collections dating from 1645 to the present including documents, digital collections, still and moving images,
+                              ledgers and docket books, vital records, cartographic materials, blueprints, and audiovisual materials.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- .featured-panel -->
-        <section class="py-5 bg-light">
+        <section class="py-5">
             <div class="container">
                 <div class="row matrix-gutter">
-                  <div class="container-fluid">
-                      <form class="narrow py-2" aria-label="Search" role="search">
-                          <div class="input-group">
-                              <label class="sr-only" for="global-search-bar">Search</label>
-                              <input class="form-control form-control-lg" id="global-search-bar" placeholder="Search">
-                              <div class="input-group-btn">
-                                  <button class="btn btn-primary btn-lg" type="button" title="Search">
-                                      <span class="sr-only">Search</span>
-                                      <span class="fas fa-arrow-right" role="img"></span>
-                                  </button>
-                              </div>
-                          </div>
-                      </form>
-                      <p class="text-center">To find publications, search by keywords such as agency name, subject, title, type, or date.</p>
-                  </div>
+                    <div class="col-md">
+                        <div class="card h-100 bg-dark opacity-90">
+                            <div class="card-body text-white">
+                                <h2 class="card-title text-center">Collections</h2>
+                                <p class="card-text">
+                                    Our vast and growing holdings are continually processed and made accessible through descriptive finding aids.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="/nyc-core-framework/aspace-collections-landing.html" class="btn btn-lg btn-white text-primary stretched-link">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-md">
+                        <div class="card h-100 bg-light">
+                            <div class="card-body text-dark">
+                                <h2 class="card-title text-center">Subjects</h2>
+                                <p class="card-text">
+                                    Browse by topical subjects, material types, occupations, and location.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="/nyc-core-framework/aspace-subjects.html" class="btn btn-lg btn-primary stretched-link">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .col -->
+                </div>
+                <!-- .row -->
+                <div class="row matrix-gutter">
+                    <div class="col-md">
+                        <div class="card h-100 bg-light">
+                            <div class="card-body text-dark">
+                                <h2 class="card-title text-center">Names</h2>
+                                <p class="card-text">
+                                    Browse by individuals and organizations associated with our collections.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="/nyc-core-framework/aspace-names.html" class="btn btn-lg btn-primary stretched-link">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-md">
+                        <div class="card h-100 bg-dark opacity-90">
+                            <div class="card-body text-white">
+                                <h2 class="card-title text-center">Record Groups</h2>
+                                <p class="card-text">
+                                    The collections are organized by Record Group, typically the creating city agency.
+                                </p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a href="/nyc-core-framework/aspace-record-groups.html" class="btn btn-lg btn-white text-primary  stretched-link">View All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .col -->
                 </div>
                 <!-- .row -->
             </div>
             <!-- .container -->
         </section>
-        <section class="py-5">
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </section>
+        <section class="bg-light py-5">
             <div class="container">
                 <div class="row">
-                    <div class="d-flex col-lg mb-3 mb-lg-0 justify-content-start">
-                        <h2>Recently Published</h2>
+                    <div class="col-lg mb-3 mb-lg-0">
+                        <h2 class="h1">Set up a research appointment</h2>
+                        <a class="btn btn-lg btn-primary mt-2 d-none d-lg-inline-block" href="#" aria-hidden="true">Email Us</a>
                     </div>
-                    <div class="d-flex col-lg justify-content-end">
-                        <button class="btn btn-small btn-outline border-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Results Per Page:
-                        </button>
-                      <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">50</a>
-                          <a class="dropdown-item" href="#">100</a>
-                          <a class="dropdown-item" href="#">500</a>
-                      </div>
+                    <div class="col-lg">
+                        <p>
+                            Our collections are open for research. Contact us at research@records.nyc.gov for an appointment, and come visit us at 31 Chambers Street, New York, NY.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error minima id quibusdam molestiae, et nisi nostrum exercitationem consectetur perferendis earum.
+                        </p>
+                        <a href="#" class="btn btn-lg btn-primary mt-2 d-lg-none">Button Link</a>
                     </div>
                     <!-- .col -->
                 </div>
                 <!-- .row -->
-                <div class="row pt-5">
-                <table class="table table-striped">
-                  <thead>
-                    <tr class="bg-primary">
-                      <th scope="col" style="color: #fff;">Publication Title &nbsp; <span class="fa fa-lg fa-caret-up"></span></th>
-                      <th scope="col" style="color: #fff;">Agency &nbsp; <span class="fa fa-lg fa-caret-up"></span></th>
-                      <th scope="col" style="color: #fff;">Date &nbsp; <span class="fa fa-lg fa-caret-up"></span></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on Recommendations of the Task Force on Construction Work in Occupied Buildings</a></td>
-                      <td>Buildings, Department of (DOB)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on Major Audits of City Agencies, including Cost Benefit Analysis and Recommendations/Agency Watch List</a></td>
-                      <td>Comptroller (COMP)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on the Closing of Rikers Island</a></td>
-                      <td>Criminal Justice, Mayor's Office of (MOCJ)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on Recommendations of the Task Force on Construction Work in Occupied Buildings</a></td>
-                      <td>Buildings, Department of (DOB)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on Major Audits of City Agencies, including Cost Benefit Analysis and Recommendations/Agency Watch List</a></td>
-                      <td>Comptroller (COMP)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on the Closing of Rikers Island</a></td>
-                      <td>Criminal Justice, Mayor's Office of (MOCJ)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on Recommendations of the Task Force on Construction Work in Occupied Buildings</a></td>
-                      <td>Buildings, Department of (DOB)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on Major Audits of City Agencies, including Cost Benefit Analysis and Recommendations/Agency Watch List</a></td>
-                      <td>Comptroller (COMP)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on the Closing of Rikers Island</a></td>
-                      <td>Criminal Justice, Mayor's Office of (MOCJ)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                    <tr>
-                      <td><a href="/">Late Notice - Report on the Closing of Rikers Island</a></td>
-                      <td>Criminal Justice, Mayor's Office of (MOCJ)</td>
-                      <td>2021-03-16</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>  <!-- .row -->
-                <nav aria-label="Browse Results">
-                  <ul class="pagination justify-content-center">
-                    <li class="page-item">
-                      <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item">
-                      <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </li>
-                  <li class="ml-2 "><a class="page-link btn btn-secondary" href="/">Browse All</a></li>
-                  </ul>
-                </nav>
-            </div><!-- .container -->
+            </div>
+            <!-- .container -->
+        </section>
+        <section class="featured-panel device-lg">
+            <div class="card bg-dark">
+                <img class="card-img opacity-40 full-opacity-on-device" src="images/ebbets_field.jpg" alt="Card image">
+                <div class="card-img-overlay d-flex px-0">
+                    <div class="container align-self-center">
+                        <div class="row text-center text-white">
+                            <div class="col-lg-4 py-3">
+                                <h2 class="h4">Digital Collections</h2>
+                                <p>
+                                    View more than 1 million digitized items
+                                </p>
+                                <a class="btn btn-info" href="http://nycma.lunaimaging.com/">Digital Collections</a>
+                            </div>
+                            <!-- .col -->
+                            <div class="col-lg-4 py-3">
+                                <h2 class="h4">For the Record Blog</h2>
+                                <p>
+                                    Read highlights from the archives
+                                </p>
+                                <a class="btn btn-info" href="https://www.archives.nyc/blog">For the Record</a>
+                            </div>
+                            <!-- .col -->
+
+                            <div class="col-lg-4 py-3">
+                                <h2 class="h4">Support the Archives</h2>
+                                <p>
+                                    Donate, adopt an item, or purchase prints
+                                </p>
+                                <a class="btn btn-info" href="https://www1.nyc.gov/site/records/about/donate.page">Donate Now</a>
+                            </div>
+                            <!-- .col -->
+                        </div>
+                        <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .card -->
         </section>
     </main>
     <footer class="bg-black" id="global-footer" role="contentinfo">
@@ -350,7 +357,7 @@
                                 <ul class="extensible-list">
                                   <li>
                                       <a class="text-reset" href="#">
-                                          <strong>NYC Municipal Library Government Publications</strong>
+                                          <strong>NYC Municipal Archives Collection Guides</strong>
                                       </a>
                                   </li>
                                     <li>
@@ -391,10 +398,17 @@
                             <div class="col-lg mb-3 mb-lg-0">
                                 <ul class="extensible-list">
                                   <li>
-                                          <strong>&#169; 2020 Samvera</strong>
+                                          <strong>&#169; 2020 ArchivesSpace</strong>
+                                  </li>
+                                  <li>
+                                      <a class="text-reset" href="http://archivesspace.org/">
+                                          <strong>ArchivesSpace v. 2.5.1</strong>
+                                      </a>
                                   </li>
                                     <li>
-                                            <strong>Licensed under the Apache License, Version 2.0</strong>
+                                        <a class="text-reset" href="http://opensource.org/licenses/ecl2.php">
+                                            <strong>Educational Community License, version 2.0</strong>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
