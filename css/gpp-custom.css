@@ -109,13 +109,17 @@ ul a {
   border: 1px solid #dee2e6;
 }
 
-.accordion-group {
-  width: 150px;
+.accordion-group .card {
+  background-color: #eee !important;
 }
-
+.accordion-group .card-body {
+  background-color: #fff !important;
+  min-width: 150px;
+}
 .year {
   min-width: 350px;
 }
-.dropdown-menu ul {
+.card-body ul {
   list-style: none;
+  margin-left: -40px;
 }
