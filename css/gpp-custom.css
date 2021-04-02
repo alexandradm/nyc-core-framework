@@ -165,3 +165,7 @@ ul a {
     width:400px;
 
 }
+
+.required a {
+  font-weight: 600;
+}
