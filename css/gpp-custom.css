@@ -112,7 +112,8 @@ ul a {
     display: flex;
     padding-left: 0;
     list-style: none;
-    border-radius: .25rem; }
+    border-radius: .25rem;
+  }
     
 .page-item {
   position: relative;
