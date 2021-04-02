@@ -114,7 +114,7 @@ ul a {
     list-style: none;
     border-radius: .25rem;
   }
-    
+
 .page-item {
   position: relative;
   display: block;
@@ -155,4 +155,13 @@ ul a {
 .card-body ul {
   list-style: none;
   margin-left: -40px;
+}
+
+.dropdown-menu {
+    height:200px;
+    overflow-y :auto;
+    overflow-x:hidden;
+    position:absolute;
+    width:400px;
+
 }
