@@ -228,78 +228,41 @@
           </div>
         </div>
       </section>
-        <section class="py-1 container">
+        <section class="py-1 mb-5 px-1 container">
             <div class="container">
-                <div class="row matrix-gutter">
-                    <div class="col-md">
-                        <div class="card h-100 bg-dark opacity-90">
-                            <div class="card-body text-white">
-                                <h2 class="card-title text-center">Collections</h2>
-                                <p class="card-text">
-                                    Our vast and growing holdings are continually processed and made accessible through descriptive finding aids.
-                                </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="/nyc-core-framework/aspace-collections-landing.html" class="btn btn-lg btn-white text-primary stretched-link">View All</a>
-                            </div>
+                <div class="row px-1 matrix-gutter">
+                    <div class="col-md border-right">
+                      <h3 class="text-center pb-1">Browse</h3>
+                      <form class="form-horizontal">
+                        <div class="form-group">
+                          <label class="control-label" for="exampleFormControlSelect1">Borough: &nbsp;</label>
+                          <select class="form-control" style="width: 250px;" id="exampleFormControlSelect1">
+                            <option>ALL</option>
+                            <option>Brooklyn (Kings)</option>
+                            <option>Bronx</option>
+                            <option>Manhattan</option>
+                            <option>Queens</option>
+                            <option>Staten Island (Richmond)</option>
+                          </select>
                         </div>
+                      </form>
+                      <form class="multi-range-field my-5 pb-5">
+                        <label>Year Range: </label><br>
+                        <input id="multi9" class="multi-range" type="range" />
+                        <input id="multi9" class="multi-range" type="range" />
+                      </form>
+                       Year range: <b>1866</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>1949</b>
                     </div>
                     <!-- .col -->
                     <div class="col-md">
-                        <div class="card h-100 bg-light">
-                            <div class="card-body text-dark">
-                                <h2 class="card-title text-center">Subjects</h2>
-                                <p class="card-text">
-                                    Browse by topical subjects, material types, occupations, and location.
-                                </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="/nyc-core-framework/aspace-subjects.html" class="btn btn-lg btn-primary stretched-link">View All</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col -->
-                </div>
-                <!-- .row -->
-                <div class="row matrix-gutter">
-                    <div class="col-md">
-                        <div class="card h-100 bg-light">
-                            <div class="card-body text-dark">
-                                <h2 class="card-title text-center">Names</h2>
-                                <p class="card-text">
-                                    Browse by individuals and organizations associated with our collections.
-                                </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="/nyc-core-framework/aspace-names.html" class="btn btn-lg btn-primary stretched-link">View All</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .col -->
-                    <div class="col-md">
-                        <div class="card h-100 bg-dark opacity-90">
-                            <div class="card-body text-white">
-                                <h2 class="card-title text-center">Record Groups</h2>
-                                <p class="card-text">
-                                    The collections are organized by Record Group, typically the creating city agency.
-                                </p>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="/nyc-core-framework/aspace-record-groups.html" class="btn btn-lg btn-white text-primary  stretched-link">View All</a>
-                            </div>
-                        </div>
+                      <h3 class="text-center">Search</h3>
                     </div>
                     <!-- .col -->
                 </div>
-                <!-- .row -->
             </div>
             <!-- .container -->
         </section>
-                </div>
-                <!-- .row -->
-            </div>
-            <!-- .container -->
-        </section>
+        <hr>
         <section class="py-5">
             <div class="container">
                 <div class="row">
@@ -316,13 +279,12 @@
         <section class="featured-panel device-lg">
             <div class="card bg-dark">
                 <img class="card-img opacity-40 full-opacity-on-device" src="../images/ebbets_field.jpg" alt="Card image">
-                <div class="card-img-overlay d-flex px-0 text-white">
-                    <div class="container align-self-center">
-                      <h2>More from the NYC Municipal Archives</h2>
-
+                <div class="card-img-overlay d-flex px-0">
+                    <div class="container align-self-center text-center">
+                      <h3 class="bg-dark py-1 text-white">More from the NYC Municipal Archives</h3>
                         <div class="row text-center text-white">
                             <div class="col-lg-4 py-3">
-                                <h2 class="h4">Digital Collections</h2>
+                                <h4>Digital Collections</h4>
                                 <p>
                                     View more than 1 million digitized items
                                 </p>
@@ -330,7 +292,7 @@
                             </div>
                             <!-- .col -->
                             <div class="col-lg-4 py-3">
-                                <h2 class="h4">For the Record Blog</h2>
+                                <h4>For the Record Blog</h4>
                                 <p>
                                     Read highlights from the archives
                                 </p>
@@ -339,7 +301,7 @@
                             <!-- .col -->
 
                             <div class="col-lg-4 py-3">
-                                <h2 class="h4">Support the Archives</h2>
+                                <h4>Support the Archives</h4>
                                 <p>
                                     Donate, adopt an item, or purchase prints
                                 </p>
