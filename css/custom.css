@@ -79,3 +79,7 @@ ul a {
   font-size: 20pt;
   font-weight: 300;
 }
+
+.form-group, .form {
+  margin: 5px;
+}
