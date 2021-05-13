@@ -75,3 +75,7 @@ ul a {
   font-size: 10pt;
   padding: 3px;
 }
+.large {
+  font-size: 20pt;
+  font-weight: 300;
+}
