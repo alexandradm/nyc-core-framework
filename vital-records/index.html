@@ -231,8 +231,9 @@
         <section class="py-3 pb-1 bg-light">
             <div class="container">
                 <div class="row px-1 matrix-gutter">
-                    <div class="col-md border-right justify-content-center">
+                    <div class="col-md border-right">
                       <h3 class="text-center pb-1">Browse</h3>
+                      <div class="center">
                       <form class="form-horizontal">
                         <div class="form-group">
                           <label class="control-label" for="exampleFormControlSelect1">Certificate Type: &nbsp;</label>
@@ -258,28 +259,48 @@
                           </select>
                         </div>
                       </form>
-                      <form class="multi-range-field my-1">
-                        <label>Year Range:</label><br>
-                        <input id="multi9" class="multi-range" type="range" />
-                        <input id="multi9" class="multi-range" type="range" />
-                      </form>
                       <div>
                        <label>Year range:</label><br> <small><b>1866</b></small> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <small><b>1949</b></small>
                      </div>
-                     <div class="text-center pt-3">
+                     <div class="text-center pt-4">
                      <a class="btn btn-primary" href="/"> Browse </a>
                     </div>
+                  </div>
                   </div>
                     <!-- .col -->
                     <div class="col-md">
                       <h3 class="text-center pb-1">Search</h3>
-                      <p class="text-center">Enter Certificate Number <sup><i class="fas fa-question"></i></sup>
+                        <form class="form-horizontal">
+                          <div class="form-group">
+                            <label class="control-label" for="exampleFormControlSelect1">Certificate Type:* &nbsp;</label>
+                            <select class="form-control" style="width: 250px;" id="exampleFormControlSelect1">
+                              <option>Birth Certificate</option>
+                              <option>Death Certificate</option>
+                              <option>Marriage Certificate</option>
+                              <option>Marriage License</option>
+                            </select>
+                          </div>
+                        </form>
+                        <form class="form-horizontal">
+                          <div class="form-group">
+                            <label class="control-label" for="exampleFormControlSelect1">Borough:* &nbsp;</label>
+                            <select class="form-control" style="width: 250px;" id="exampleFormControlSelect1">
+                              <option>Brooklyn (Kings)</option>
+                              <option>Bronx</option>
+                              <option>Manhattan</option>
+                              <option>Queens</option>
+                              <option>Staten Island (Richmond)</option>
+                            </select>
+                          </div>
+                        </form>
                         <form>
                           <div class="form-group">
-                            <label for="exampleFormControlInput1">Certificate Number:</label>
+                            <label for="exampleFormControlInput1">Certificate Number:* </label>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#######">
                           </div>
                         </form>
+                    <small>  <a href="/">How do I find a certificate number?</a></small>
+
                         <div class="text-center pt-3">
                         <a class="btn btn-primary" href="/"> Search </a>
                        </div>

@@ -83,3 +83,15 @@ ul a {
 .form-group, .form {
   margin: 5px;
 }
+.center
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
