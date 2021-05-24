@@ -75,3 +75,23 @@ ul a {
   font-size: 10pt;
   padding: 3px;
 }
+.large {
+  font-size: 20pt;
+  font-weight: 300;
+}
+
+.form-group, .form {
+  margin: 5px;
+}
+.center
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
