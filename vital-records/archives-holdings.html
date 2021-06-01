@@ -148,7 +148,7 @@
                     </div>
                     <!-- .nav-item -->
                     <div class="nav-item">
-                        <a class="nav-link" href="/nyc-core-framework/vital-records/archives-holdings.html" id="nav-item-02"
+                        <a class="nav-link active" href="/nyc-core-framework/vital-records/archives-holdings.html" id="nav-item-02"
                             aria-haspopup="true" aria-expanded="false" role="button">
                             Archives Holdings
                         </a>
@@ -201,120 +201,25 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <p class="large text-center">The New York City Municipal Archives is undertaking a mass digitization project to provide online access to our 13,000,000 historical holdings of birth, death, and marriage records. We can add one more sentence here, but should keep it short. </p>
-            </div>
-          </div>
-          <div class="row pt-2">
-            <div class="col-lg-3">
-            </div>
-            <div class="col-lg-6">
-              <div class="alert alert-info center-block" role="alert">
-              Newly available online: <b>1929 Manhattan death records</b>
+              <h2>Archives Holdings</h2>
+              <p>The New York City Municipal Archives holds vital records for all 5 boroughs. The <i>Historical Vital Records of NYC</i> website publishes digitized versions of vital records starting in 1898, when the boroughs consolidated to form New York City. Certified copies of vitals and copies of pre-consolidation records in our holdings can be <a href="/">ordered online</a>.</p>
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Births</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Deaths</a>
+                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Marriages</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Description of Birth holdings and gantt chart go here</div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Death description and gantt here</div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">also describe difference between cert and license here for Marriages</div>
               </div>
-            </div>
-            <div class="col-lg-3">
-            </div>
+
+             </div>
           </div>
         </div>
       </section>
-        <section class="py-3 pb-1 bg-light">
-            <div class="container">
-                <div class="row px-1 matrix-gutter">
-                    <div class="col-md border-right">
-                      <h3 class="text-center pb-1">Browse</h3>
-                      <div class="center">
-                      <form class="form-horizontal">
-                        <div class="form-group">
-                          <label class="control-label" for="exampleFormControlSelect1">Certificate Type: &nbsp;</label>
-                          <select class="form-control" style="width: 250px;" id="exampleFormControlSelect1">
-                            <option>ALL</option>
-                            <option>Birth Certificate</option>
-                            <option>Death Certificate</option>
-                            <option>Marriage Record</option>
-                          </select>
-                        </div>
-                      </form>
-                      <form class="form-horizontal">
-                        <div class="form-group">
-                          <label class="control-label" for="exampleFormControlSelect1">Borough: &nbsp;</label>
-                          <select class="form-control" style="width: 250px;" id="exampleFormControlSelect1">
-                            <option>ALL</option>
-                            <option>Brooklyn (Kings)</option>
-                            <option>Bronx</option>
-                            <option>Manhattan</option>
-                            <option>Queens</option>
-                            <option>Staten Island (Richmond)</option>
-                          </select>
-                        </div>
-                      </form>
-                      <div>
-                       <label>Year range:</label><br> <small><b>1866</b></small> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <small><b>1949</b></small>
-                     </div>
-                     <div class="text-center pt-4">
-                     <a class="btn btn-primary" href="/"> Browse </a>
-                    </div>
-                  </div>
-                  </div>
-                    <!-- .col -->
-                    <div class="col-md">
-                      <h3 class="text-center pb-1">Search</h3>
-                        <form class="form-horizontal">
-                          <div class="form-group">
-                            <label class="control-label" for="exampleFormControlSelect1">Certificate Type:* &nbsp;</label>
-                            <select class="form-control" style="width: 250px;" id="exampleFormControlSelect1">
-                              <option>Birth Certificate</option>
-                              <option>Death Certificate</option>
-                              <option>Marriage Record</option>
-                            </select>
-                          </div>
-                        </form>
-                        <form class="form-horizontal">
-                          <div class="form-group">
-                            <label class="control-label" for="exampleFormControlSelect1">Borough:* &nbsp;</label>
-                            <select class="form-control" style="width: 250px;" id="exampleFormControlSelect1">
-                              <option>Brooklyn (Kings)</option>
-                              <option>Bronx</option>
-                              <option>Manhattan</option>
-                              <option>Queens</option>
-                              <option>Staten Island (Richmond)</option>
-                            </select>
-                          </div>
-                        </form>
-                        <form>
-                          <div class="form-group">
-                            <label for="exampleFormControlInput1">Certificate Number:*  &nbsp; <sup><a href="/genealogical-research"><i class="fa fas fa-question"></i></a></sup></label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="#######">
-                          </div>
-                        </form>
-
-                    <form>
-                      <div class="form-group">
-                        <label for="exampleFormControlInput1">Year:* </label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="####">
-                      </div>
-                    </form>
-                        <div class="text-center pt-3">
-                        <a class="btn btn-primary" href="/"> Search </a>
-                       </div>
-                    </div>
-                    <!-- .col -->
-                </div>
-            </div>
-            <!-- .container -->
-        </section>
-        <section class="py-5">
-            <div class="container">
-                <div class="row">
-                  <div class="col-lg mb-3 mb-lg-0" >
-                    <h2 class="pb-1">Digitization Progress</h2>
-                    <div class="progress bg-light">
-                      <div class="progress-bar bg-primary text-white" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><b>&nbsp; 80% (10 of 14 million records)</b></div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <!-- .container -->
-        </section>
         <section class="featured-panel device-lg">
             <div class="card bg-dark">
                 <img class="card-img opacity-40 full-opacity-on-device" src="../images/ebbets_field.jpg" alt="Card image">
